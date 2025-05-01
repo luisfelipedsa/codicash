@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import SalesList from "../components/SalesList";
 
 const ProductsPage = () => {
   const fields = [
@@ -42,6 +43,7 @@ const ProductsPage = () => {
             </button>
           </form>
         </div>
+        <SalesList/>
       </div>
     </div>
   );
